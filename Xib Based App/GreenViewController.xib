@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C31f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GreenViewController" customModule="Xib_Based_App" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4So-H2-Z9l">
+                    <rect key="frame" x="256" y="285" width="89" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Back To Blue"/>
+                    <connections>
+                        <action selector="backToBlue" destination="-1" eventType="touchUpInside" id="Mzm-Zw-LwK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.068800044199999993" green="1" blue="0.035295964630000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4So-H2-Z9l" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="67Y-GI-gC7"/>
+                <constraint firstItem="4So-H2-Z9l" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hiC-sB-EP9"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

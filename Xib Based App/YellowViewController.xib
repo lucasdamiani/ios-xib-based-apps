@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C31f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YellowViewController" customModule="Xib_Based_App" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="peJ-kr-BsK" id="Yyk-Jb-DfU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="peJ-kr-BsK">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-m2-dJi">
+                    <rect key="frame" x="263" y="285" width="75" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Go To Blue"/>
+                    <connections>
+                        <action selector="goToBlue" destination="-1" eventType="touchUpInside" id="krg-ks-68i"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.98431372549999996" green="0.9685030791" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ueU-m2-dJi" firstAttribute="centerY" secondItem="peJ-kr-BsK" secondAttribute="centerY" id="DBh-Qk-rte"/>
+                <constraint firstItem="ueU-m2-dJi" firstAttribute="centerX" secondItem="peJ-kr-BsK" secondAttribute="centerX" id="PHl-Tl-bvQ"/>
+            </constraints>
+            <point key="canvasLocation" x="387" y="436"/>
+        </view>
+    </objects>
+</document>
